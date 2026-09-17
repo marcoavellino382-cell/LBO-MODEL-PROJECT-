@@ -1,13 +1,13 @@
-# Encompass Health (NYSE: EHC) – Leveraged Buyout (LBO) Model
+ Encompass Health (NYSE: EHC) – Leveraged Buyout (LBO) Model
 
-## 📌 Project Overview
+ 📌 Project Overview
 Questo repository contiene un **modello finanziario LBO (Leveraged Buyout) a 3 prospetti** completo e dinamico sviluppato su **Encompass Health Corporation (NYSE: EHC)**, leader statunitense nei servizi sanitari di riabilitazione post-acuta. 
 
 Il modello valuta la fattibilità finanziaria e i rendimenti per uno Sponsor finanziario su un orizzonte di holding period di **5 anni (Anno 1 - Anno 5)**. Include un meccanismo di *Cash Sweep* integrale e risolve le interdipendenze finanziarie attraverso l'attivazione del **calcolo iterativo** per la gestione degli interessi circolanti.
 
----
 
-## 📊 Key Financial Metrics & Results
+
+ 📊 Key Financial Metrics & Results
 
 L'operazione dimostra una forte capacità di generazione di cassa e un profilo di rischio/rendimento eccellente, in linea con i target di mercato del Private Equity:
 
@@ -17,9 +17,8 @@ L'operazione dimostra una forte capacità di generazione di cassa e un profilo d
 *   **Internal Rate of Return (IRR):** **16,41%**
 *   **Deleveraging (Rimborso Debito Senior):** Riduzione del debito Senior da \$5.000,00M a **\$2.947,69M** in 5 anni.
 
----
 
-## 🗂️ Model Structure
+ 🗂️ Model Structure
 
 Il file Excel è organizzato in modo modulare per garantire massima leggibilità e manutenibilità:
 
@@ -31,9 +30,9 @@ Il file Excel è organizzato in modo modulare per garantire massima leggibilità
 6.  **Debt Schedule:** Piano di ammortamento dinamico con calcolo degli interessi (tasso al 6,0%) e rimborso opzionale guidato dalla formula `=MIN(Debito Iniziale; FCF)`.
 7.  **Returns Analysis:** Sintesi finale delle metriche di rendimento dello Sponsor finanziario basata su un'ipotesi conservativa di *Multiple Neutrality* all'uscita (14,88x).
 
----
 
-## 📈 Summary of Returns (Year 5 Exit)
+
+ 📈 Summary of Returns (Year 5 Exit)
 
 | Voce di Bilancio / Metrica | Valore (\$M) | Note / Formule |
 | :--- | :--- | :--- |
@@ -46,16 +45,16 @@ Il file Excel è organizzato in modo modulare per garantire massima leggibilità
 | **MOIC** | **2,14x** | `= Equity Finale / Equity Iniziale` |
 | **IRR** | **16,41%** | `=(MOIC)^(1/5) - 1` |
 
----
 
-## 🛠️ Best Practices Applicate & Formattazione
+
+ 🛠️ Best Practices Applicate & Formattazione
 
 *   **Color Coding Standard:** Celle di Input (Dati fissi) in <span style="color:blue">**BLU**</span>, Formule e Calcoli automatici in **NERO**.
 *   **Calcolo Iterativo Sbloccato:** Il modello gestisce nativamente il riferimento circolare nato dal collegamento tra Interessi Passivi (Debt Schedule) → Net Income (Operating Model) → Free Cash Flow → Cash Sweep.
 *   **Formattazione Istituzionale:** Layout pulito in stile Investment Banking con linee di separazione contabili (bordo singolo superiore, bordo doppio inferiore per i totali).
 
----
+
 
 
 *   By Marco Avellino 
-*   
+    
